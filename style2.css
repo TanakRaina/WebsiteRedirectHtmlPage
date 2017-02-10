@@ -1,0 +1,90 @@
+body{
+ 
+    font-family: 'Trebuchet MS', Arial, serif;
+            font-weight: 200;
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+            line-height: 1.618em;
+
+    background:  azure url(rocketCloud.png) no-repeat center center fixed;
+    background-size: cover;
+
+ 
+}
+
+*{box-sizing:border-box;}
+
+.header_logo{
+/* position: fixed;*/
+  width: 100%;
+  text-align: center;
+  font-size: 72px;
+  line-height: 100px;
+  height: 100px;
+  background: rgba(176,226,255, 0.2);
+ 
+}
+ .section{
+ 
+     top:100px;
+            width:550px;
+       
+            margin: 50px auto;
+        
+            padding-top:50px;
+        
+
+
+            word-wrap: break-word;
+            color:darkolivegreen;
+
+            text-align:center;
+        }
+.content{
+        text-align: justify;
+        font-weight: 600;
+     font-family: 'Ek Mukta' , 'Arial Rounded MT Bold', serif;
+        }
+.header_text{
+    color:dimgrey;
+}
+.header_text a{
+      color:chocolate;
+            text-decoration: none;
+    font-family: "Arvo";
+            
+          
+         }
+
+.header a:focus{
+            outline:none;
+            outline-offset:inherit;
+        }
+.footer_logo {
+  width: 100%;
+  text-align: center;
+  line-height: 108px;
+  height: 108px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background:rgba(192,192,192,0.2);
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+
+    
+}
+
+@media (max-width: 767px){
+  
+    .footer_logo {position: relative!important;}
+    
+}
+
+@media (max-width: 549px){
+    .section{width: 100%;}
+  
+    
+}

@@ -1,0 +1,103 @@
+
+        body{
+            font-family: 'Noto Sans', Arial, serif;
+            font-weight: 200;
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+            line-height: 1.618em;
+            background: url('riseBanner.PNG') center center ;
+            background-repeat: repeat-x; 
+            background-position: center;
+        }
+
+        h4{
+          color:#107896;
+
+        }
+      
+        section{
+            max-width:800px;
+            margin:6% auto 1em auto;	
+            background-color:rgba(173,216,230,0.2);
+            opacity: 0.7;
+            filter: alpha(opacity=80); /* For IE8 and earlier */
+            color:#107896;
+            padding:1em 5%;
+            text-align: center;
+        }
+        p{
+            color:#e83f1b;
+            text-align: justify;
+            display: block;
+            font-weight: 700;
+        }
+ 
+        a{
+            color:#e83f1b;
+         }
+        a:focus{
+            outline:none;
+            outline-offset:inherit;
+        }
+
+        #HeaderLogo{
+            margin: 0 auto;
+            width: 100px;
+            text-align:center;
+        }
+     
+        
+        @media (max-device-width: 1027px) {
+ 
+            body{
+                text-align:center;
+                font-size:medium;
+            }
+            
+            section{
+                max-width: 80%;
+                 }
+                    }
+            #riselogo{
+                position: absolute;
+                left:0px;
+                top:0px;
+                 
+            }
+        @media (max-device-width: 767px){
+             body{
+                text-align:center;
+                font-size:medium;
+            }
+            
+            section{
+               
+                max-width: 80%;
+            }
+            
+         #riselogo{
+                position: absolute;
+                left:0px;
+                top:0px;
+                 
+            }
+ 
+        @media (max-device-width: 640px) {
+            body{
+                text-align:center;
+                font-size:medium;
+            }
+            
+            section{
+            
+                max-width: 80%;
+            }
+            
+             #riselogo{
+                position: absolute;
+                left:0px;
+                top:0px;
+            }
+ 
+        }
+ 
